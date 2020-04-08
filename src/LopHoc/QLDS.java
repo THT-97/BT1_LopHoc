@@ -10,6 +10,9 @@ import java.util.ArrayList;
 public class QLDS implements IQLDS{
     ArrayList<CaNhan> ds;
 
+    public QLDS() {
+    }
+
     @Override
     public int them(CaNhan p) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.

@@ -6,9 +6,21 @@
 package LopHoc;
 
 public class LopHoc {
-    CaNhan giaoVienCN = new GiaoVien("VatLy12", "VatLy", "Ngo Thi Bich", 40, "20 2/4 Nha Trang", "0900123456");
+    CaNhan giaoVienCN;
     QLDS qldsGVGD;
     QLDS qldsHS;
+
+    public LopHoc() {
+    }
+
+    public CaNhan getGiaoVienCN() {
+        return giaoVienCN;
+    }
+
+    public void setGiaoVienCN(CaNhan giaoVienCN) {
+        this.giaoVienCN = giaoVienCN;
+    }
+    
     public int themHocSinh(HocSinh hs){throw new UnsupportedOperationException("Not supported yet.");}
     public int themGiaoVienGD(GiaoVien gv){throw new UnsupportedOperationException("Not supported yet.");}
     public int inDSHS(){throw new UnsupportedOperationException("Not supported yet.");}
