@@ -7,7 +7,7 @@ package LopHoc;
 
 import java.util.ArrayList;
 
-public class QLSD implements IQLDS{
+public class QLDS implements IQLDS{
     ArrayList<CaNhan> ds;
 
     @Override
