@@ -23,12 +23,12 @@ public class QLDS implements IQLDS{
             return 1; //error
         }
     }
-
+    
     @Override
     public int xoa(String ten) {
         int l = ds.size();
         int i=0;
-        while (i<l && (ds.get(i).getHoTen().equals(ten))) {         
+        while (i<l && (!ds.get(i).getHoTen().equals(ten))) {         
             i++;
         }
         if(i<l){
