@@ -33,11 +33,10 @@ public class HocSinh extends CaNhan {
         this.nangKhieu = nangKhieu;
     }
 
-    
     @Override
     public String HienThiTT() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        String tt = this.getHoTen()+ this.getLop() + this.getNangKhieu() + this.getTuoi();
+        return tt + this.getDiaChi() + this.getSdt();
     }
-    
-    
+        
 }

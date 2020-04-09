@@ -36,8 +36,8 @@ public class GiaoVien extends CaNhan{
 
     @Override
     public String HienThiTT() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        String tt = this.getHoTen() + this.getMonDay() + this.getToBoMon() + this.getTuoi();
+        return tt + this.getDiaChi() + this.getSdt();
     }
 
-    
 }

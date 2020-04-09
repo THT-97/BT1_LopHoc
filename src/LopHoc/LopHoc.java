@@ -21,8 +21,19 @@ public class LopHoc {
         this.giaoVienCN = giaoVienCN;
     }
     
-    public int themHocSinh(HocSinh hs){throw new UnsupportedOperationException("Not supported yet.");}
-    public int themGiaoVienGD(GiaoVien gv){throw new UnsupportedOperationException("Not supported yet.");}
-    public int inDSHS(){throw new UnsupportedOperationException("Not supported yet.");}
-    public int inDSGVGD(){throw new UnsupportedOperationException("Not supported yet.");}
+    public int themHocSinh(HocSinh hs){
+        return qldsHS.them(hs);
+    }
+    public int themGiaoVienGD(GiaoVien gv){
+       return qldsGVGD.them(gv);
+    }
+    public int inDSHS(){
+        qldsHS.inDS();
+        return 0;
+    }
+    public int inDSGVGD(){
+        
+        qldsGVGD.inDS();
+        return 0;
+    }
 }
