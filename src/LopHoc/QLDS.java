@@ -11,6 +11,7 @@ public class QLDS implements IQLDS{
     ArrayList<CaNhan> ds;
 
     public QLDS() {
+        ds = new  ArrayList<>();
     }
 
     @Override

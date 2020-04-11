@@ -11,6 +11,8 @@ public class LopHoc {
     QLDS qldsHS;
 
     public LopHoc() {
+        qldsGVGD = new QLDS();
+        qldsHS = new QLDS();
     }
 
     public CaNhan getGiaoVienCN() {
