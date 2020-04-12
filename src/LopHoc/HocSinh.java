@@ -35,7 +35,7 @@ public class HocSinh extends CaNhan {
 
     @Override
     public String HienThiTT() {
-        String tt = this.getHoTen()+"\t"+ this.getLop() +"\t"+ this.getNangKhieu() +"\t"+ this.getTuoi();
+        String tt = this.getHoTen()+"\t"+ this.getLop() +"\t"+ this.getNangKhieu() +"\t\t"+ this.getTuoi();
         return tt +"\t"+ this.getDiaChi() +"\t"+ this.getSdt();
     }
         

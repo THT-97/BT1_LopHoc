@@ -36,7 +36,7 @@ public class GiaoVien extends CaNhan{
 
     @Override
     public String HienThiTT() {
-        String tt = this.getHoTen() +"\t"+ this.getMonDay() +"\t"+ this.getToBoMon() +"\t\t"+ this.getTuoi();
+        String tt = this.getHoTen() +"\t\t"+ this.getMonDay() +"\t"+ this.getToBoMon() +"\t\t"+ this.getTuoi();
         return tt +"\t"+ this.getDiaChi() +"\t"+ this.getSdt();
     }
 
